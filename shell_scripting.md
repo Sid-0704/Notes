@@ -7,7 +7,7 @@
 ### To Change Executive Permission - chmod +x FileName.sh
 ### Editing The Shell Files - It can be done using nano editor or vim editor
 ### For Nano Editor - nano FileName.sh
-### For Vim Editor - vim FileName.sh\
+### For Vim Editor - vim FileName.sh
 
 ---
 
@@ -19,5 +19,6 @@
 ### Writing A Demo Shell Script
 #!/bin/bash
 NAME="Sid"     -----here no space should be given and varible name must be in capital letter only <br>
-echo "I am ${NAME}"     -----here echo is printing the string and like C language '$' is required to let the compiler/interpreter know that it is a variable and not a string, just like a placeholder. <br>
+echo "I am ${NAME}"     -----here echo is printing the string and like C language '$' is required to let the compiler/interpreter 
+                        -----know that it is a variable and not a string, just like a placeholder. <br>
 
