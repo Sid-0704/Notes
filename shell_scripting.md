@@ -34,4 +34,4 @@ fi ------- here fi is used to end the Conditional Statement.
 NAME="Sid" -------here no space should be given and varible name must be in capital letter only <br>
 echo "I am ${NAME}" -------here echo is printing the string and like C language '$' is required to let the compiler/interpreter know that it is a variable and not a string, just like a placeholder. <br>
 read -p "Enter your age: " AGE -------here age is given by the user at runtime and stored in a variable called as AGE
-exho "${NAME} is ${AGE} years old"
+echo "${NAME} is ${AGE} years old"
