@@ -14,11 +14,24 @@
 ##  Some Shell Scripting Commands:
 ### For Starting Shell Scripting, Use The Following Line - #!/bin/bash
 ### echo command - It basically prints out the line, basically like the print function of python 
+### using comments - Any line starting with "#" will be interpreted as a comment.
+### giving input at runtime - use "read VARIABLE_NAME"  
+
+---
+## Using Conditional Statements in bash
+syntax:
+if[condition];
+then
+Statements
+else
+Statements
+
+fi ------- here fi is used to end the Conditional Statement.
 
 ---
 ### Writing A Demo Shell Script
 #!/bin/bash <br>
-NAME="Sid"-------here no space should be given and varible name must be in capital letter only <br>
-echo "I am ${NAME}"-------here echo is printing the string and like C language '$' is required to let the compiler/interpreter know that it is a variable and not a string, just like a placeholder. <br>
-read -p "Enter your age: " AGE-------here age is given by the user at runtime and stored in a variable called as AGE
+NAME="Sid" -------here no space should be given and varible name must be in capital letter only <br>
+echo "I am ${NAME}" -------here echo is printing the string and like C language '$' is required to let the compiler/interpreter know that it is a variable and not a string, just like a placeholder. <br>
+read -p "Enter your age: " AGE -------here age is given by the user at runtime and stored in a variable called as AGE
 exho "${NAME} is ${AGE} years old"
