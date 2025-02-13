@@ -13,7 +13,7 @@
 
 ##  Some Shell Scripting Commands:
 ### For Starting Shell Scripting, Use The Following Line - #!/bin/bash
-### echo command - It basically prints out the line, basically like the print function of python 
+### echo command - It basically prints out the line, similar to print function of python.
 ### using comments - Any line starting with "#" will be interpreted as a comment.
 ### giving input at runtime - use "read VARIABLE_NAME"  
 
